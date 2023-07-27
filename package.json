@@ -1,0 +1,38 @@
+{
+  "name": "hotel_management_system_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevalShah072/Hotel_Management_System_NodeJs.git"
+  },
+  "keywords": [],
+  "author": "Keval Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevalShah072/Hotel_Management_System_NodeJs/issues"
+  },
+  "homepage": "https://github.com/KevalShah072/Hotel_Management_System_NodeJs#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.37.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.3",
+    "path": "^0.12.7",
+    "razorpay": "^2.9.1",
+    "schema": "^0.2.1"
+  }
+}
